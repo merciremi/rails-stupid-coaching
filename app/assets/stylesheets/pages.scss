@@ -4,29 +4,10 @@
 
 $font-stack: Helvetica, sans-serif;
 $primary-color: rgb(10, 10, 10);
-$light-grey: rgb(200, 200, 200);
-$yellow: rgba(245, 215, 110, 0.5);
+
 
 body {
   font: 100% $font-stack;
   color: $primary-color;
 }
 
-.question {
-  border-left:3px solid $light-grey;
-  padding-left: 10px;
-
-  &:after {
-    content: "- YOU";
-  }
-}
-
-.answer {
-  border-left:3px solid $light-grey;
-  background-color: $yellow;
-  padding-left: 10px;
-
-  &:after {
-    content: "- Your coach";
-  }
-}
