@@ -3,7 +3,6 @@ class QuestionsController < ApplicationController
   end
 
   def answer
-
     @question = params[:question]
 
     if params[:question].include? 'I am going to work'
